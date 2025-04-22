@@ -1,0 +1,13 @@
+[package]
+name = "nc-to-pq"
+version = "0.1.0"
+edition = "2024"
+authors = ["axect <axect@outlook.kr>"]
+repository = "https://github.com/Axect/nc-to-pq"
+description = "Convert NetCDF4 files to Parquet format"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
+peroxide = { version = "0.39.5", features = ["nc", "parquet"] }
