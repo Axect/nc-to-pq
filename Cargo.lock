@@ -670,7 +670,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "nc-to-parquet"
+name = "nc-to-pq"
 version = "0.1.0"
 dependencies = [
  "clap",
