@@ -1,7 +1,9 @@
 # nc-to-pq
 
 [![crates.io](https://img.shields.io/crates/v/nc-to-pq.svg)](https://crates.io/crates/nc-to-pq)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) A simple command-line tool written in Rust to convert NetCDF4 files (.nc) to Apache Parquet format (.parquet).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+A simple command-line tool written in Rust to convert NetCDF4 files (.nc) to Apache Parquet format (.parquet).
 
 This tool leverages the `peroxide` crate for reading NetCDF files and writing Parquet files.
 
