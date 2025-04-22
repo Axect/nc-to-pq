@@ -8,7 +8,7 @@ description = "A CLI tool to convert 1D variable NetCDF4 files to Apache Parquet
 readme = "README.md"
 license = "MIT"
 keywords = ["netcdf", "parquet", "cli", "conversion"]
-categories = ["command-line-utilities", "science", "data-processing"]
+categories = ["command-line-utilities", "science"]
 
 [dependencies]
 clap = { version = "4.5.37", features = ["derive"] }
