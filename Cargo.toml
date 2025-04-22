@@ -7,7 +7,7 @@ repository = "https://github.com/Axect/nc-to-pq"
 description = "A CLI tool to convert 1D variable NetCDF4 files to Apache Parquet format."
 readme = "README.md"
 license = "MIT"
-keywords = ["netcdf", "parquet", "cli", "conversion", "data", "science"]
+keywords = ["netcdf", "parquet", "cli", "conversion"]
 categories = ["command-line-utilities", "science", "data-processing"]
 
 [dependencies]
