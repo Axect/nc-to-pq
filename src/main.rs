@@ -36,8 +36,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Write the dataframe to a parquet file
     println!("[INFO] Writing parquet file: {:?}", output_file);
     let compression = match compression.as_str() {
-        "default" => CompressionOptions::Uncompressed,
-        "snappy" => CompressionOptions::Snappy,
+        "default" => UNCOMPRESSED,
+        "snappy" => SNAPPY,
+        "lz4" => LZ4,
+        "lzo" => LZO,
         _ => {
             eprintln!("Unsupported compression algorithm: {}\nCurrently, only default or snappy are allowed", compression);
             std::process::exit(1);
